@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "去广告",
+  "version": "1.0",
+  "description": "自定义去广告",
+  "author": "three-water",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.826dm.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
