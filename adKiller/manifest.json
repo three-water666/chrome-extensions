@@ -1,15 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "去广告",
+  "name": "樱花动漫去广告",
   "version": "1.0",
-  "description": "自定义去广告",
+  "description": "樱花动漫去广告",
   "author": "three-water",
   "icons": {
     "48": "icon.png",
     "128": "icon.png"
   },
-  "browser_action": {
-    "default_icon": "icon.png"
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "樱花动漫去广告"
   },
   "content_scripts": [
     {
