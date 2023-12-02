@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.826dm.com/*"],
+      "matches": ["https://www.826dm.com/*", "https://www.856dm.com/*"],
       "js": ["content-script.js"]
     }
   ]
